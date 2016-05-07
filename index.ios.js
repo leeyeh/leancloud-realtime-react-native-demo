@@ -12,6 +12,7 @@ import {
   View
 } from 'react-native';
 import { Realtime } from 'leancloud-realtime';
+delete global.XMLHttpRequest;
 
 class RealtimeDemo extends Component {
   async componentDidMount() {
